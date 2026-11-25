@@ -8,6 +8,8 @@ A Streamlit dashboard and reproducible binary classifier for **UNSW-NB15 network
 
 ![NIDS overview](reports/screenshots/overview.png)
 
+![Batch detection](reports/screenshots/batch_detection.png)
+
 ![Model performance](reports/screenshots/performance.png)
 
 The dashboard provides Overview, Batch Detection, Traffic Analytics, Alerts, and Model Performance views. “Live” detection means results appear after an upload is analyzed. Alerts and flow summaries are stored in local SQLite at `data/events.sqlite3`.
