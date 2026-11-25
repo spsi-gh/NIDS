@@ -1,0 +1,52 @@
+{
+  "selected_model": "Logistic Regression",
+  "artifact": "nids_logistic_regression.pkl",
+  "selection_rule": "Highest validation attack recall; F1 breaks ties; threshold 0.5",
+  "validation_rows": 35069,
+  "test_rows": 82332,
+  "validation_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9364395905215432,
+      "precision": 0.9236823557052236,
+      "recall": 0.9882693032804055,
+      "f1": 0.95488493533305,
+      "roc_auc": 0.9843010247900744
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9597650346459836,
+      "precision": 0.9608092580433355,
+      "recall": 0.9808957224852319,
+      "f1": 0.9707485954765014,
+      "roc_auc": 0.9938250412968406
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.9562291482505917,
+      "precision": 0.9601912140443418,
+      "recall": 0.976161548451967,
+      "f1": 0.9681105224888334,
+      "roc_auc": 0.9931336502666339
+    }
+  ],
+  "test_metrics": {
+    "accuracy": 0.8096730311422047,
+    "precision": 0.7535040339122111,
+    "recall": 0.9724477190505603,
+    "f1": 0.8490889479563928,
+    "roc_auc": 0.9556235753754285
+  },
+  "confusion_matrix": [
+    [
+      22579,
+      14421
+    ],
+    [
+      1249,
+      44083
+    ]
+  ],
+  "created_at_utc": "2026-11-25T05:56:07.580279+00:00",
+  "sklearn_version": "1.9.1"
+}
